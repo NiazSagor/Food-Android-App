@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <cdflynn.android.library.checkview.CheckView
+        android:id="@+id/check"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        app:checkView_strokeColor="@color/green"
+        app:checkView_strokeWidth="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="10dp"
+        android:text="Verified"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/check"
+        app:layout_constraintStart_toStartOf="@+id/check"
+        app:layout_constraintTop_toBottomOf="@+id/check"
+        tools:ignore="HardcodedText" />
+
+</android.support.constraint.ConstraintLayout>

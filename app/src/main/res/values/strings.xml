@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">FoodUp</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_today">TodayActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string-array name="building">
+        <item>Pick Up From Store</item>
+        <item>Science Building</item>
+        <item>Law Building</item>
+        <item>BBA Building</item>
+        <item>Admin Building</item>
+        <item>Academic Building</item>
+        <item>Shariah Building</item>
+    </string-array>
+
+    <string name="walletInfo">
+        <b><font size="20">FoodUp Wallet</font></b>\n
+        This is a virtual wallet system where you can keep your cash like you do in Bkash. This virtual cash can be used to buy the food items
+        you like, from which store you like on the go. \n\n
+
+         <b><font size="20">How and Why</font></b>\n
+        A student can recharge this wallet according to his/her total money spent on food in every week/month. Suppose you need 200 TK weekly on food,
+        so recharge 200 TK and no need to worry about the physical payment anymore. \n\n
+
+        <ul>
+            <li>Hassle-free payment during booking/ordering\n</li>
+            <li>Fast pickup, just go and grab your package\n</li>
+            <li>Save valuable time\n</li>
+        </ul>
+
+        \nWe will be launching this wallet system soon to make eating process more comfortable and smooth.
+
+        \nIf you have any query or need to give us any feedback, visit our Facebook page \n\n<b>facebook.com/foodup.campus/</b>
+
+    </string>
+
+    <string-array name="onlySelf">
+        <item>Pick Up From Store</item>
+    </string-array>
+    <string name="scanid">After entering metric number click verify metric and scan barcode from your ID card. After that click submit to proceed</string>
+    <string name="splash">Pre-Order your food for breakfast or lunch and get it delivered at your building</string>
+    <string name="splash2">No need to worry about the lines and being late for the class anymore</string>
+
+    <string name="orderTimeInfo">Lunch booking time is from 9 AM to 12 PM</string>
+
+    <string name="availableStore">In <b>5</b> available stores</string>
+
+    <string name="alreadyRegistered">Already have an account? \n<b><font color="blue">Click here to log in!</font></b></string>
+
+    <string name="instruction">After entering your beautiful nickname and <b>prestigious metric</b>, click <b>VERIFY METRIC</b> to verify your id with barcode scanning that is in your id card</string>
+
+    <string name="rpinfo">
+        <b><font size="24">Reputation Point</font></b>\n
+        <p>\nRP stands for <i>Reputation Point</i>. Which is for maintaining the integrity and healthy relationship between the buyer and seller.
+        \n\nIf a buyer fails to pickup the ordered package, an amount of RP will be deducted from total 100.
+            \n\nIf RP is lower than 60, that particular buyer will not be able to place order for a certain period of time in future.
+        </p>
+    </string>
+
+    <string name="alreadyAuthenticated">
+        You\'\ve already authenticated your phone number. But you did not complete your profile info. Do you want to continue to complete your profile?
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scrolling"><font color="#000000">You\'\ve Craved</font></string>
+    <string name="title_order_activity">Today\'\s Order</string>
+
+    <string name="code">        final EditText phoneNumberEditText = findViewById(R.id.editText1);
+        final EditText codeEditText = findViewById(R.id.editText2);
+        Button sendCodeButton = findViewById(R.id.button5);
+        final Button verifyCode = findViewById(R.id.button121);
+        sendCodeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                /*ViewPager viewPager = Objects.requireNonNull(getActivity()).findViewById(R.id.viewpager);
+                viewPager.setCurrentItem(1);*/
+                sendVerificationCode(phoneNumberEditText);
+            }
+        });
+
+        verifyCode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                verifySignInCode(codeEditText);
+            }
+        });</string>
+
+</resources>
